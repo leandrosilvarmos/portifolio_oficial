@@ -25,10 +25,6 @@ document.getElementById('contactForm').addEventListener('submit', function(event
             document.getElementById('star3').checked = false;
             document.getElementById('star4').checked = false;
             document.getElementById('star5').checked = false;
-            // Redireciona para a página especificada após alguns segundos
-            setTimeout(function() {
-                window.location.href = 'https://leandrosilvarmos.github.io/portifolio_oficial/#feedbacks';
-            }, 3000); // 3000 milissegundos = 3 segundos
         } else {
             alert('Desculpe, algo deu errado. Por favor, tente novamente mais tarde.');
         }
